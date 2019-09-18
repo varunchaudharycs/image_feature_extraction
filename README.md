@@ -108,7 +108,7 @@ You opted to quit the demo. Exiting.
 
 
 ### Todos
-
+ - Use MongoDB to store & retrieve results
  - Test more similarity measure methods
 
 
