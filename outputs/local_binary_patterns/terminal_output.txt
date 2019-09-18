@@ -1,0 +1,142 @@
+/home/varun/anaconda3/envs/MWDB/bin/python /home/varun/PycharmProjects/MWDB/phase1_LBP.py
+Enter the output folder to store all results: /home/varun/Desktop/MWDB/Project/output
+
+Enter the task option to execute(or 9 to quit) 
+1. Task 1 (extract and print feature descriptors for given image ID) 
+2. Task 2 (extract and stores feature descriptors for all images in given folder) 
+3. Task 3 (pre-requisite: Task 2; given an image ID- finds 'k' most similar images) 
+4. Display the feature descriptor for a previously computed image ID from the current feature dictionary
+9. Quit
+Option? 1
+TASK 1:
+
+Enter the dataset folder path: /home/varun/Desktop/MWDB/Project/input
+Enter the image id: 0008110
+Output for image ID - 0008110 
+Saved in file - 
+/home/varun/Desktop/MWDB/Project/output/0008110_lbp_image_09152019_155713.csv
+Histogram corresponding to image LBP feature descriptors - 
+Histogram array 
+[3.09791667e-03 2.93958333e-03 5.72916667e-05 1.10052083e-03
+ 2.48958333e-03 2.80208333e-04 7.83333333e-04 7.23385417e-03
+ 4.06250000e-05 2.60416667e-05 1.04166667e-06 1.04166667e-05
+ 7.28125000e-04 9.84375000e-05 8.90625000e-04 5.96406250e-03
+ 2.43593750e-03 1.28072917e-03 3.07291667e-05 1.95833333e-04
+ 2.57291667e-04 3.54166667e-05 1.00520833e-04 4.70312500e-04
+ 8.15625000e-04 1.70312500e-04 5.72916667e-06 6.19791667e-05
+ 5.17395833e-03 4.09375000e-04 4.00364583e-03 1.69182292e-02
+ 4.89583333e-05 2.65625000e-05 5.20833333e-07 1.25000000e-05
+ 2.81250000e-05 2.60416667e-06 7.81250000e-06 5.46875000e-05
+ 2.60416667e-06 5.20833333e-07 0.00000000e+00 0.00000000e+00
+ 9.37500000e-06 1.04166667e-06 6.25000000e-06 2.86458333e-05
+ 8.61458333e-04 1.69270833e-04 1.51041667e-05 3.48958333e-05
+ 9.16666667e-05 4.68750000e-06 6.97916667e-05 1.25000000e-04
+ 1.71250000e-03 1.20312500e-04 5.20833333e-06 3.17708333e-05
+ 5.89791667e-03 9.84375000e-05 2.31562500e-03 2.32812500e-03
+ 2.37552083e-03 2.82291667e-04 4.11458333e-05 1.13541667e-04
+ 1.49583333e-03 3.59375000e-05 1.89583333e-04 4.38541667e-04
+ 2.81250000e-05 4.16666667e-06 0.00000000e+00 0.00000000e+00
+ 1.59895833e-04 6.25000000e-06 1.28125000e-04 1.29166667e-04
+ 2.75520833e-04 3.28125000e-05 2.08333333e-06 5.72916667e-06
+ 2.86458333e-05 1.04166667e-06 8.85416667e-06 1.45833333e-05
+ 9.53125000e-05 3.12500000e-06 2.08333333e-06 3.64583333e-06
+ 3.91666667e-04 9.37500000e-06 1.06770833e-04 1.50000000e-04
+ 7.18229167e-04 8.85416667e-05 1.35416667e-05 7.03125000e-05
+ 1.80208333e-04 6.25000000e-06 3.17708333e-05 1.21354167e-04
+ 1.14583333e-05 5.20833333e-07 0.00000000e+00 0.00000000e+00
+ 4.94791667e-05 1.04166667e-06 3.48958333e-05 5.52083333e-05
+ 6.05260417e-03 4.13541667e-04 6.14583333e-05 1.16666667e-04
+ 3.68229167e-04 1.04166667e-05 1.00000000e-04 2.26562500e-04
+ 7.67395833e-03 1.14062500e-04 3.33333333e-05 6.87500000e-05
+ 1.90739583e-02 1.59895833e-04 2.42760417e-03 2.18802083e-03
+ 5.31250000e-05 1.05468750e-03 2.60416667e-06 1.88281250e-03
+ 3.59375000e-05 1.09375000e-04 1.14583333e-05 8.12135417e-03
+ 0.00000000e+00 1.19791667e-05 5.20833333e-07 1.09375000e-05
+ 9.37500000e-06 6.45833333e-05 1.14583333e-05 4.24010417e-03
+ 3.07291667e-05 1.82291667e-04 2.60416667e-06 1.66145833e-04
+ 1.56250000e-06 6.25000000e-06 1.56250000e-06 1.56250000e-04
+ 5.72916667e-06 3.17708333e-05 0.00000000e+00 3.59375000e-05
+ 5.41666667e-05 1.06250000e-04 3.64583333e-05 2.97395833e-03
+ 2.08333333e-06 8.33333333e-06 0.00000000e+00 7.81250000e-06
+ 2.08333333e-06 1.56250000e-06 5.20833333e-07 3.69791667e-05
+ 0.00000000e+00 5.20833333e-07 0.00000000e+00 0.00000000e+00
+ 5.20833333e-07 5.20833333e-07 0.00000000e+00 1.87500000e-05
+ 1.04166667e-05 5.15625000e-05 5.20833333e-07 3.43750000e-05
+ 5.20833333e-07 3.64583333e-06 5.20833333e-07 6.82291667e-05
+ 6.77083333e-06 3.54166667e-05 0.00000000e+00 8.75000000e-05
+ 3.38541667e-05 5.10416667e-05 1.51041667e-05 1.52812500e-03
+ 7.26562500e-04 6.10000000e-03 9.89583333e-06 7.81614583e-03
+ 1.64062500e-04 3.88541667e-04 6.30208333e-05 2.09937500e-02
+ 1.14583333e-05 5.78125000e-05 2.08333333e-06 4.27083333e-05
+ 3.80208333e-05 1.09375000e-04 3.64583333e-05 3.50000000e-03
+ 9.32291667e-05 4.64062500e-04 5.20833333e-07 1.22395833e-04
+ 8.85416667e-06 1.40625000e-05 5.72916667e-06 2.07291667e-04
+ 5.72916667e-05 1.10416667e-04 0.00000000e+00 7.55208333e-05
+ 1.06250000e-04 2.16145833e-04 6.61458333e-05 2.44531250e-03
+ 9.28125000e-04 4.72135417e-03 9.37500000e-06 3.13020833e-03
+ 1.38020833e-04 1.09895833e-04 4.11458333e-05 3.09635417e-03
+ 4.68750000e-06 2.23958333e-05 5.20833333e-07 1.40625000e-05
+ 3.38541667e-05 5.72916667e-05 6.51041667e-05 1.93437500e-03
+ 5.86041667e-03 1.64229167e-02 3.75000000e-05 2.55312500e-03
+ 1.08854167e-04 1.33333333e-04 5.98958333e-05 2.17447917e-03
+ 3.04270833e-03 2.44427083e-03 1.56250000e-05 1.50937500e-03
+ 2.61979167e-03 2.14895833e-03 1.55989583e-03 7.60279167e-01] 
+Histogram bin edges 
+[  0.   1.   2.   3.   4.   5.   6.   7.   8.   9.  10.  11.  12.  13.
+  14.  15.  16.  17.  18.  19.  20.  21.  22.  23.  24.  25.  26.  27.
+  28.  29.  30.  31.  32.  33.  34.  35.  36.  37.  38.  39.  40.  41.
+  42.  43.  44.  45.  46.  47.  48.  49.  50.  51.  52.  53.  54.  55.
+  56.  57.  58.  59.  60.  61.  62.  63.  64.  65.  66.  67.  68.  69.
+  70.  71.  72.  73.  74.  75.  76.  77.  78.  79.  80.  81.  82.  83.
+  84.  85.  86.  87.  88.  89.  90.  91.  92.  93.  94.  95.  96.  97.
+  98.  99. 100. 101. 102. 103. 104. 105. 106. 107. 108. 109. 110. 111.
+ 112. 113. 114. 115. 116. 117. 118. 119. 120. 121. 122. 123. 124. 125.
+ 126. 127. 128. 129. 130. 131. 132. 133. 134. 135. 136. 137. 138. 139.
+ 140. 141. 142. 143. 144. 145. 146. 147. 148. 149. 150. 151. 152. 153.
+ 154. 155. 156. 157. 158. 159. 160. 161. 162. 163. 164. 165. 166. 167.
+ 168. 169. 170. 171. 172. 173. 174. 175. 176. 177. 178. 179. 180. 181.
+ 182. 183. 184. 185. 186. 187. 188. 189. 190. 191. 192. 193. 194. 195.
+ 196. 197. 198. 199. 200. 201. 202. 203. 204. 205. 206. 207. 208. 209.
+ 210. 211. 212. 213. 214. 215. 216. 217. 218. 219. 220. 221. 222. 223.
+ 224. 225. 226. 227. 228. 229. 230. 231. 232. 233. 234. 235. 236. 237.
+ 238. 239. 240. 241. 242. 243. 244. 245. 246. 247. 248. 249. 250. 251.
+ 252. 253. 254. 255. 256.]
+
+Enter the task option to execute(or 9 to quit) 
+1. Task 1 (extract and print feature descriptors for given image ID) 
+2. Task 2 (extract and stores feature descriptors for all images in given folder) 
+3. Task 3 (pre-requisite: Task 2; given an image ID- finds 'k' most similar images) 
+4. Display the feature descriptor for a previously computed image ID from the current feature dictionary
+9. Quit
+Option? 2
+TASK 2:
+Enter the dataset folder path: /home/varun/Desktop/MWDB/Project/input
+Output saved for directory /home/varun/Desktop/MWDB/Project/input 
+ in file - 
+/home/varun/Desktop/MWDB/Project/output//lbp_folder_09152019_155903.csv
+
+Enter the task option to execute(or 9 to quit) 
+1. Task 1 (extract and print feature descriptors for given image ID) 
+2. Task 2 (extract and stores feature descriptors for all images in given folder) 
+3. Task 3 (pre-requisite: Task 2; given an image ID- finds 'k' most similar images) 
+4. Display the feature descriptor for a previously computed image ID from the current feature dictionary
+9. Quit
+Option? 3
+TASK 3:
+Enter the dataset folder path: /home/varun/Desktop/MWDB/Project/input
+Enter the image id: 0008110
+Enter value for 'k' most similar images: 3
+Feature descriptor already exists for image ID -  0008110
+Details of 'k' most similar images - Image ID : Chi-squared distance(similarity measure)
+0008111 : 0.00024496451284169996
+0011686 : 0.0023513669011794493
+0008130 : 0.002398091558655196
+
+Enter the task option to execute(or 9 to quit) 
+1. Task 1 (extract and print feature descriptors for given image ID) 
+2. Task 2 (extract and stores feature descriptors for all images in given folder) 
+3. Task 3 (pre-requisite: Task 2; given an image ID- finds 'k' most similar images) 
+4. Display the feature descriptor for a previously computed image ID from the current feature dictionary
+9. Quit
+Option? 9
+You opted to quit the demo. Exiting.
