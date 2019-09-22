@@ -106,7 +106,7 @@ Option? 9
 You opted to quit the demo. Exiting.
 ```
 
-[Sample 'k' similar images output](https://i.imgur.com/iC4VEJe.png)
+![Sample 'k' similar images output](https://i.imgur.com/iC4VEJe.png)
 
 ### Todos
  - Use MongoDB to store & retrieve results
