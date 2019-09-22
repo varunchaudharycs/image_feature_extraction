@@ -106,6 +106,7 @@ Option? 9
 You opted to quit the demo. Exiting.
 ```
 
+![alt text](https://imgur.com/iC4VEJe)
 
 ### Todos
  - Use MongoDB to store & retrieve results
